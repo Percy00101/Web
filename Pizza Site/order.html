@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Good Pizza Great Pizza</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+		<link rel="icon" href="pizza.ico"/>
+  </head>
+  <body>
+		
+		<div class="nav">
+			<a href="https://Good-Pizza-Great-Pizza.bookie0.repl.co/#landing">HOME</a>
+
+			<a href="https://Good-Pizza-Great-Pizza.bookie0.repl.co/order.html">MENU</a>
+
+			<a href="https://Good-Pizza-Great-Pizza.bookie0.repl.co/#contact">CONTACT</a>
+
+			<div class="dropdown">
+				<a href="javascript:void(0);" class="cta">ORDER</a>
+
+				<div class="dropdownContent">
+					<a href="https://Good-Pizza-Great-Pizza.bookie0.repl.co/order.html#original">Originals</a>
+					<a href="https://Good-Pizza-Great-Pizza.bookie0.repl.co/order.html#big">Big</a>
+					<a href="https://Good-Pizza-Great-Pizza.bookie0.repl.co/order.html#somethingDifferent">Something...different</a>
+					<a href="https://Good-Pizza-Great-Pizza.bookie0.repl.co/order.html#other">Other</a>
+					<a href="https://Good-Pizza-Great-Pizza.bookie0.repl.co/create.html#create" class="cta">Create pizza</a>
+				</div>
+			</div> 
+		</div>
+
+		<section class="landing" id="landing">
+			<div class="hero">
+				<h1>Good Pizza, <span class="accent">Great Pizza</span></h1>
+			</div>
+
+			<div onclick="document.getElementById('order').scrollIntoView();" class="downLink">
+				<p>ORDER PIZZA</p>
+				<img src="Images/arrow.png" class="down">
+			</div>
+
+		</section>
+
+		<section class="order">
+			<h1 id="order">ORDER</h1>
+
+			<details open id="original">
+				<summary>
+					<h3>ORIGINAL</h3>
+				</summary>
+
+				<div class="pizzas">
+					<div class="pizza">
+						<img src="Images/Pizzas/cheese.webp">
+
+						<h3>CHEESE</h3>
+
+						<p>Good 'ole cheese pizza. Marinara sauce and fresh mozzarella cheese.</p>
+
+						<div class="container">
+							<select>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+								<option>10</option>
+							</select>
+
+							<p class="price"><span class="symbol">$</span>17</p>
+						</div>
+
+						<button>ORDER</button>
+					</div>
+
+					<div class="pizza">
+						<img src="Images/Pizzas/pepperoni.webp">
+
+						<h3>PEPPERONI</h3>
+
+						<p>Pepperoni pizza. A classic cheese pizza with pepperoni.</p>
+
+						<div class="container">
+							<select>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+								<option>10</option>
+							</select>
+
+							<p class="price"><span class="symbol">$</span>16</p>
+						</div>
+
+						<button>ORDER</button>
+					</div>
+
+					<div class="pizza">
+						<img src="Images/Pizzas/margherita.webp">
+
+						<h3>MARGHERITA</h3>
+
+						<p>A cheese pizza with fresh basil leaves and extra-virgin olive oil. Typical Neopolitan!</p>
+
+						<div class="container">
+							<select>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+								<option>10</option>
+							</select>
+
+							<p class="price"><span class="symbol">$</span>17</p>
+						</div>
+
+						<button>ORDER</button>
+					</div>
+				</div>
+			</details>
+
+			<details open id="big">
+				<summary>
+					<h3>BIG</h3>
+				</summary>
+
+				<div class="pizzas">
+					<div class="pizza">
+						<img src="Images/Pizzas/meat.webp">
+
+						<h3>MEAT</h3>
+
+						<p>A pizza packed with pepperoni, sausage, ham, and bacon. Great for meat lovers.</p>
+
+						<div class="container">
+							<select>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+								<option>10</option>
+							</select>
+
+							<p class="price"><span class="symbol">$</span>21</p>
+						</div>
+
+						<button>ORDER</button>
+					</div>
+
+					<div class="pizza">
+						<img src="Images/Pizzas/supreme.webp">
+
+						<h3>SUPREME</h3>
+
+						<p>A great, big, pizza filled with pepperoni, sausage, mushrooms, onions, olives, and bell peppers.</p>
+
+						<div class="container">
+							<select>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+								<option>10</option>
+							</select>
+
+							<p class="price"><span class="symbol">$</span>21</p>
+						</div>
+
+						<button>ORDER</button>
+					</div>
+
+					<div class="pizza">
+						<img src="Images/Pizzas/fruity.webp">
+
+						<h3>FRUITY</h3>
+
+						<p>Sweet, sweet pizza! A fruity blend of pineapple, sausage, ham, olives, bell peppers, and bacon.</p>
+
+						<div class="container">
+							<select>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+								<option>10</option>
+							</select>
+
+							<p class="price"><span class="symbol">$</span>20</p>
+						</div>
+
+						<button>ORDER</button>
+					</div>
+
+					<div class="pizza">
+						<img src="Images/Pizzas/salty.webp">
+
+						<h3>SALTY</h3>
+
+						<p>A salty pizza which includes salty olives and salty anchovies. Make sure to order a drink!</p>
+
+						<div class="container">
+							<select>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+								<option>10</option>
+							</select>
+
+							<p class="price"><span class="symbol">$</span>17</p>
+						</div>
+
+						<button>ORDER</button>
+					</div>
+				</div>
+			</details>
+
+
+			<details open id="somethingDifferent">
+				<summary>
+					<h3>SOMETHING...DIFFERENT</h3>
+				</summary>
+
+				<div class="pizzas">
+					<div class="pizza">
+						<img src="Images/Pizzas/green.webp">
+
+						<h3>GREEN PIZZA</h3>
+
+						<p>A green pizza for those who love green! Basil and bell peppers!</p>
+
+						<div class="container">
+							<select>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+								<option>10</option>
+							</select>
+
+							<p class="price"><span class="symbol">$</span>18</p>
+						</div>
+
+						<button>ORDER</button>
+					</div>
+
+					<div class="pizza">
+						<img src="Images/Pizzas/corn.webp">
+
+						<h3>CORN</h3>
+
+						<p>Yup, just what the name says. A pizza with corn.</p>
+
+						<div class="container">
+							<select>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+								<option>10</option>
+							</select>
+
+							<p class="price"><span class="symbol">$</span>16</p>
+						</div>
+
+						<button>ORDER</button>
+					</div>
+
+					<div class="pizza">
+						<img src="Images/Pizzas/shrimp.webp">
+
+						<h3>SHRIMP</h3>
+
+						<p>Seafood and pizza, why not! Fresh shrimp on pizza.</p>
+
+						<div class="container">
+							<select>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+								<option>10</option>
+							</select>
+
+							<p class="price"><span class="symbol">$</span>20</p>
+						</div>
+
+						<button>ORDER</button>
+					</div>
+
+					<div class="pizza">
+						<img src="Images/Pizzas/pineapple.webp">
+
+						<h3>PINEAPPLE</h3>
+
+						<p>A mix of sweet and tangy: pineapple on pizza! </p>
+
+						<div class="container">
+							<select>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+								<option>10</option>
+							</select>
+
+							<p class="price"><span class="symbol">$</span>16</p>
+						</div>
+
+						<button>ORDER</button>
+					</div>
+				</div>
+			</details>
+
+			
+		<details open id="other">
+				<summary>
+					<h3>OTHER</h3>
+				</summary>
+
+				<div class="pizzas">
+					<div class="pizza">
+						<img src="Images/Pizzas/vegan.webp">
+
+						<h3>VEGAN</h3>
+
+						<p>A pizza without cheese, but with many other things! Contains mushrooms, olives, onions, bell peppers, pineapples, basil, and corn.</p>
+
+						<div class="container">
+							<select>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+								<option>10</option>
+							</select>
+
+							<p class="price"><span class="symbol">$</span>16</p>
+						</div>
+
+						<button>ORDER</button>
+					</div>
+
+					<div class="pizza">
+						<img src="Images/Pizzas/veg.webp">
+
+						<h3>VEGETERIAN</h3>
+
+						<p>A vegeterian pizza; no meat! Mushrooms, olives, onions, bell peppers, pineapples, basil, and corn.</p>
+
+						<div class="container">
+							<select>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+								<option>10</option>
+							</select>
+
+							<p class="price"><span class="symbol">$</span>16</p>
+						</div>
+
+						<button>ORDER</button>
+					</div>
+				</div>
+			</details>
+
+			<details open>
+				<summary>
+					<h3>OR, CREATE YOUR OWN</h3>
+				</summary>
+
+				<div class="pizzas">
+					<div class="pizza">
+						<img src="Images/Pizzas/makeYourOwn.webp">
+
+						<h3>MAKE YOUR OWN</h3>
+
+						<p>What will you put on your pizza? Choose between many fresh ingredients to create your own original pizza.</p>
+
+						<p class="price"><span class="symbol">$</span>15 – 30</p>
+						
+						<a href="create.html">
+							<button>CREATE</button>
+						</a>
+					</div>
+				</div>
+			</details>
+		</section>
+
+		<section class="footer">
+			<div class="column title">
+				<h1>Good Pizza, <span class="accent">Great Pizza</span></h1>
+
+				<p>Serving fresh, delicious pizza since 1931.</p>
+
+				<div class="socialMedia">
+					<ion-icon name="logo-twitter"></ion-icon>
+
+					<ion-icon name="logo-facebook"></ion-icon>
+
+					<ion-icon name="logo-youtube"></ion-icon>
+
+					<ion-icon name="logo-instagram"></ion-icon>
+				</div>
+			</div>
+
+			<div class="column home">
+				<h3>HOME</h3>
+
+				<a href="https://good-pizza-great-pizza.bookie0.repl.co/order.html">Menu</a>
+
+				<a href="https://good-pizza-great-pizza.bookie0.repl.co/#whyUs">Why us</a>
+				
+				<a href="https://good-pizza-great-pizza.bookie0.repl.co/#contact">Contact us</a>
+			</div>
+
+			<div class="column order">
+				<h3>ORDER</h3>
+
+				<a href="https://good-pizza-great-pizza.bookie0.repl.co/order.html#original">Originals</a>
+
+				<a href="https://good-pizza-great-pizza.bookie0.repl.co/order.html#big">Big</a>
+
+				<a href="https://good-pizza-great-pizza.bookie0.repl.co/order.html#somethingDifferent">Something different</a>
+
+				<a href="https://good-pizza-great-pizza.bookie0.repl.co/order.html#other">Other</a>
+					
+				<a href="https://good-pizza-great-pizza.bookie0.repl.co/create.html#create">Create pizza</a>
+			</div>
+
+			<div class="column businessHours">
+				<h3>BUSINESS HOURS</h3>
+
+				<p>Weekdays: 10AM – 12PM</p>
+
+				<p>Weekends: 12AM – 10PM</p>
+
+				<p>Holidays: Closed</p>
+			</div>
+
+			<div class="column info">
+				<h3>ADDRESS</h3>
+
+				<p>69 Pizza Lane</p>
+				<p>Pizza City, PS 12345</p>
+
+				<h3 class="phoneNumber">PHONE NUMBER</h3>
+
+				<p>+123 456 7890</p>
+			</div>
+		</section>
+
+    <script src="script.js"></script>
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
+
+
+<style>
+
+
+</style>

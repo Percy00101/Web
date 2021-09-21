@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Good Pizza Great Pizza</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+		<link rel="icon" href="pizza.ico"/>
+  </head>
+  <body>
+		
+		<div class="nav">
+		<a href="https://Good-Pizza-Great-Pizza.bookie0.repl.co/#landing">HOME</a>
+
+			<a href="https://Good-Pizza-Great-Pizza.bookie0.repl.co/order.html">MENU</a>
+
+			<a href="https://Good-Pizza-Great-Pizza.bookie0.repl.co/#contact">CONTACT</a>
+
+			<div class="dropdown">
+				<a href="javascript:void(0);" class="cta">ORDER</a>			
+
+				<div class="dropdownContent">
+					<a href="https://Good-Pizza-Great-Pizza.bookie0.repl.co/order.html#original">Originals</a>
+					<a href="https://Good-Pizza-Great-Pizza.bookie0.repl.co/order.html#big">Big</a>
+					<a href="https://Good-Pizza-Great-Pizza.bookie0.repl.co/order.html#somethingDifferent">Something...different</a>
+					<a href="https://Good-Pizza-Great-Pizza.bookie0.repl.co/order.html#other">Other</a>
+					<a href="https://Good-Pizza-Great-Pizza.bookie0.repl.co/create.html#create" class="cta">Create pizza</a>
+				</div>
+			</div> 
+		</div>
+
+		<section class="landing" id="landing">
+			<div class="hero">
+				<h1>Good Pizza, <span class="accent">Great Pizza</span></h1>
+			</div>
+
+			<div onclick="document.getElementById('create').scrollIntoView();" class="downLink">
+				<p>CREATE PIZZA</p>
+				<img src="Images/arrow.png" class="down">
+			</div>
+		</section>
+
+		<section class="create">
+
+			<h1 id="create"></h1>
+
+			<div class="part dough">
+				<h1>DOUGH</h1>
+
+				<div class="option">
+					<label>
+						<input type="radio" name="dough">
+						<img src="Images/Ingredients/plain.webp" class="dough">
+
+						<h3>Plain dough</h3>
+					</label>
+
+					<label>
+						<input type="radio" name="dough">
+						<img src="Images/Ingredients/wheat.webp" class="dough">
+						
+						<h3>Wheat dough</h3>
+					</label>
+				</div>
+			</div>
+
+			<div class="part sauce">
+				<h1>SAUCE</h1>
+
+				<div class="option">
+					<label>
+						<input type="radio" name="sauce">
+						<img src="Images/Ingredients/tomato.webp">
+
+						<h3>TOMATO SAUCE</h3>
+					</label>
+
+					<label>
+						<input type="radio" name="sauce">
+						<img src="Images/Ingredients/pesto.webp">
+
+						<h3>PESTO SAUCE</h3>
+					</label>
+
+					<label>
+						<input type="radio" name="sauce" >
+						<img src="Images/Ingredients/none.png">
+
+						<h3>NO SAUCE</h3>
+					</label>
+				</div>
+			</div>
+
+			<div class="part cheese">
+				<h1>CHEESE</h1>
+				
+				<div class="option">
+
+					<input type="checkbox" id="cb1" />
+					
+					<label for="cb1" class="checkboxes">
+						<img src="Images/Ingredients/cheese.webp">
+
+						<h3>CHEESE</h3>
+					</label>	
+				</div>
+			</div>	
+
+			<div class="part toppings">
+				<h1>MEAT</h1>
+
+				<div class="option">
+				
+					<input type="checkbox" id="cb2" />
+					
+					<label for="cb2" class="checkboxes">
+						<img src="Images/Ingredients/pepperoni.webp">
+
+						<h3>PEPPERONI</h3>
+					</label>			
+
+					<input type="checkbox" id="cb3" />
+					
+					<label for="cb3" class="checkboxes">
+						<img src="Images/Ingredients/sausage.webp" style="height:240px;margin-top:10px;">
+
+						<h3>SAUSAGE</h3>
+					</label>
+
+					<input type="checkbox" id="cb4" />
+					
+					<label for="cb4" class="checkboxes">
+						<img src="Images/Ingredients/bacon.webp">
+
+						<h3>BACON</h3>
+					</label>
+
+					<input type="checkbox" id="cb5" />
+					
+					<label for="cb5" class="checkboxes">
+						<img src="Images/Ingredients/ham.webp">
+
+						<h3>HAM</h3>
+					</label>			
+
+					<input type="checkbox" id="cb6" />
+					
+					<label for="cb6" class="checkboxes">
+						<img src="Images/Ingredients/chicken.webp" style="height:240px;margin-top:10px;">
+
+						<h3>CHICKEN</h3>
+					</label>			
+				</div>
+
+				<h1>VEGGIES</h1>
+
+				<div class="option">				
+					<input type="checkbox" id="cb7" />
+					
+					<label for="cb7" class="checkboxes">
+						<img src="Images/Ingredients/basil.webp">
+
+						<h3>BASIL</h3>
+					</label>
+
+					<input type="checkbox" id="cb8" />
+					
+					<label for="cb8" class="checkboxes">
+						<img src="Images/Ingredients/onion.webp" style="height:240px;margin-top:10px;">
+
+						<h3>ONION</h3>
+					</label>
+
+					<input type="checkbox" id="cb9" />
+					
+					<label for="cb9" class="checkboxes">
+						<img src="Images/Ingredients/bellPepper.webp" style="height:250px;margin-top:2px;">
+
+						<h3>BELL PEPPER</h3>
+					</label>	
+
+					<input type="checkbox" id="cb10" />
+					
+					<label for="cb10" class="checkboxes">
+						<img src="Images/Ingredients/corn.webp" style="height:240px;margin-top:10px;">
+
+						<h3>CORN</h3>
+					</label>
+				</div>
+
+				<h1>FRUIT</h1>
+
+				<div class="option">				
+					<input type="checkbox" id="cb11" />
+				
+					<label for="cb11" class="checkboxes">
+						<img src="Images/Ingredients/olive.webp" style="height:220px;margin-top:25px;">
+
+						<h3>OLIVE</h3>
+					</label>
+
+					<input type="checkbox" id="cb12" />
+					
+					<label for="cb12" class="checkboxes">
+						<img src="Images/Ingredients/pineapple.webp">
+
+						<h3>PINEAPPLE</h3>
+					</label>
+
+					<input type="checkbox" id="cb13" />
+					
+					<label for="cb13" class="checkboxes">
+						<img src="Images/Ingredients/eggplant.webp">
+
+						<h3>EGGPLANT</h3>
+					</label>	
+				</div>
+
+				<h1>OTHER</h1>
+
+				<div class="option">				
+					<input type="checkbox" id="cb14" />
+				
+					<label for="cb14" class="checkboxes">
+						<img src="Images/Ingredients/mushroom.webp">
+
+						<h3>MUSHROOM</h3>
+					</label>
+
+					<input type="checkbox" id="cb15" />
+					
+					<label for="cb15" class="checkboxes">
+						<img src="Images/Ingredients/anchovy.webp">
+
+						<h3>ANCHOVY</h3>
+					</label>
+
+					<input type="checkbox" id="cb16" />
+					
+					<label for="cb16" class="checkboxes">
+						<img src="Images/Ingredients/shrimp.webp" style="margin-top:10px;">
+
+						<h3>SHRIMP</h3>
+					</label>	
+				</div>
+			</div>
+
+			<button>PLACE YOUR ORDER</button>
+		</section>
+
+		<section class="footer">
+			<div class="column title">
+				<h1>Good Pizza, <span class="accent">Great Pizza</span></h1>
+
+				<p>Serving fresh, delicious pizza since 1931.</p>
+
+				<div class="socialMedia">
+					<ion-icon name="logo-twitter"></ion-icon>
+
+					<ion-icon name="logo-facebook"></ion-icon>
+
+					<ion-icon name="logo-youtube"></ion-icon>
+
+					<ion-icon name="logo-instagram"></ion-icon>
+				</div>
+			</div>
+
+			<div class="column home">
+				<h3>HOME</h3>
+
+				<a href="https://good-pizza-great-pizza.bookie0.repl.co/order.html">Menu</a>
+
+				<a href="https://good-pizza-great-pizza.bookie0.repl.co/#whyUs">Why us</a>
+				
+				<a href="https://good-pizza-great-pizza.bookie0.repl.co/#contact">Contact us</a>
+			</div>
+
+			<div class="column order">
+				<h3>ORDER</h3>
+
+				<a href="https://good-pizza-great-pizza.bookie0.repl.co/order.html#original">Originals</a>
+
+				<a href="https://good-pizza-great-pizza.bookie0.repl.co/order.html#big">Big</a>
+
+				<a href="https://good-pizza-great-pizza.bookie0.repl.co/order.html#somethingDifferent">Something different</a>
+
+				<a href="https://good-pizza-great-pizza.bookie0.repl.co/order.html#other">Other</a>
+					
+				<a href="https://good-pizza-great-pizza.bookie0.repl.co/create.html#create">Create pizza</a>
+			</div>
+
+			<div class="column businessHours">
+				<h3>BUSINESS HOURS</h3>
+
+				<p>Weekdays: 10AM – 12PM</p>
+
+				<p>Weekends: 12AM – 10PM</p>
+
+				<p>Holidays: Closed</p>
+			</div>
+
+			<div class="column info">
+				<h3>ADDRESS</h3>
+
+				<p>69 Pizza Lane</p>
+				<p>Pizza City, PS 12345</p>
+
+				<h3 class="phoneNumber">PHONE NUMBER</h3>
+
+				<p>+123 456 7890</p>
+			</div>
+		</section>
+
+    <script src="script.js"></script>
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	</body>
+</html>
+
+

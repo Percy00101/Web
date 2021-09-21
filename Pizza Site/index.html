@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Good Pizza Great Pizza</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+		<link rel="icon" href="pizza.ico"/>
+  </head>
+  <body>
+		
+		<div class="nav">
+			<a onclick="document.getElementById('landing').scrollIntoView();">HOME</a>
+
+			<a onclick="document.getElementById('menu').scrollIntoView();">MENU</a>
+
+			<a onclick="document.getElementById('contact').scrollIntoView();">CONTACT</a>
+
+			<div class="dropdown">
+				<a href="javascript:void(0);" class="cta">ORDER</a>
+
+				<div class="dropdownContent">
+					<a href="https://Good-Pizza-Great-Pizza.bookie0.repl.co/order.html#original">Originals</a>
+					<a href="https://Good-Pizza-Great-Pizza.bookie0.repl.co/order.html#big">Big</a>
+					<a href="https://Good-Pizza-Great-Pizza.bookie0.repl.co/order.html#somethingDifferent">Something...different</a>
+					<a href="https://Good-Pizza-Great-Pizza.bookie0.repl.co/order.html#other">Other</a>
+					<a href="https://Good-Pizza-Great-Pizza.bookie0.repl.co/create.html#create" class="cta">Create pizza</a>
+				</div>
+			</div> 
+		</div>
+
+		<section class="landing" id="landing">
+			<div class="hero">
+				<h1>Good Pizza, <span class="accent">Great Pizza</span></h1>
+
+				<div class="container">
+					<a href="order.html">
+						<button class="cta">ORDER NOW</button>
+					</a>
+
+					<a onclick="document.getElementById('menu').scrollIntoView();">
+						<button>VIEW MENU</button>
+					</a>
+				</div>
+			</div>
+
+			<div onclick="document.getElementById('menu').scrollIntoView();" class="downLink">
+				<p>GIMME PIZZA</p>
+				<img src="Images/arrow.png" class="down">
+			</div>
+
+
+		</section>
+
+		<section class="menu">	
+			<h1 id="menu">MENU</h1>
+
+			<div class="pizzas">
+				<div class="pizza">
+					<img src="Images/Pizzas/cheese.webp">
+
+					<h3>CHEESE</h3>
+
+					<p>Good 'ole cheese pizza. Marinara sauce and fresh mozzarella cheese.</p>
+
+					<p class="price"><span class="symbol">$</span>17</p>
+				</div>
+
+				<div class="pizza">
+					<img src="Images/Pizzas/pepperoni.webp">
+
+					<h3>PEPPERONI</h3>
+
+					<p>Pepperoni pizza. A classic cheese pizza with pepperoni.</p>
+
+					<p class="price"><span class="symbol">$</span>19</p>
+				</div>
+
+				<div class="pizza">
+					<img src="Images/Pizzas/meat.webp">
+
+					<h3>MEAT</h3>
+
+					<p>A pizza packed with pepperoni, sausage, ham, and bacon. Great for meat lovers.</p>
+
+					<p class="price"><span class="symbol">$</span>21</p>
+				</div>
+
+				<div class="pizza">
+					<img src="Images/Pizzas/supreme.webp">
+
+					<h3>SUPREME</h3>
+
+					<p>A great, big, pizza filled with pepperoni, sausage, mushrooms, onions, olives, and bell peppers.</p>
+
+					<p class="price"><span class="symbol">$</span>20</p>
+				</div>
+			</div>
+
+			<div class="pizzas">
+				<div class="pizza">
+					<img src="Images/Pizzas/fruity.webp">
+
+					<h3>FRUITY</h3>
+
+					<p>Sweet, sweet pizza! A fruity blend of pineapple, sausage, ham, olives, bell peppers, and bacon.</p>
+
+					<p class="price"><span class="symbol">$</span>20</p>
+				</div>
+
+				<div class="pizza">
+					<img src="Images/Pizzas/salty.webp">
+
+					<h3>SALTY</h3>
+
+					<p>A salty pizza which includes salty olives and salty anchovies. Make sure to order a drink!</p>
+
+					<p class="price"><span class="symbol">$</span>17</p>
+				</div>
+
+				<div class="pizza">
+					<img src="Images/Pizzas/margherita.webp">
+
+					<h3>MARGHERITA</h3>
+
+					<p>A cheese pizza with fresh basil leaves and extra-virgin olive oil. Typical Neopolitan!</p>
+
+					<p class="price"><span class="symbol">$</span>16</p>
+				</div>
+
+					<div class="pizza">
+						<a href="create.html" class="create">
+						<img src="Images/Pizzas/makeYourOwn.webp">
+
+						<h3>MAKE YOUR OWN</h3>
+
+						<p>What will you put on your pizza? Choose between many fresh ingredients to create your own original pizza.</p>
+
+						<p class="price"><span class="symbol">$</span>15 – 30</p>
+						</a>
+					</div>
+			</div>
+
+			<div class="linkContainer">
+				<a href="order.html">VIEW OUR FULL MENU</a>
+				<img src="Images/arrow.png">
+			</div>
+
+			<hr>
+		</section>
+
+		<section class="whyUs">
+			<h1 id="whyUs">WHY US</h1>
+
+			<div class="features">
+				<div class="feature">
+					<h3>FRESH INGREDIENTS</h3>
+
+					<!-- <ion-icon name="pizza"></ion-icon> -->
+
+					<img src="Images/fresh.webp">
+
+					<p>We use fresh, natural, ingredients to create original and delicious pizzas. All of our food is made from quality ingredients.</p>		
+				</div>
+
+				<div class="feature">
+					<h3>FAST DELIVERY</h3>
+
+					<!-- <ion-icon name="hourglass"></ion-icon> -->
+
+					<img src="Images/delivery.webp">
+
+					<p>Lightning fast delivery, from our kitchen to your table. Less than 20 minutes, guaranteed (or your money back)! As simple as that.</p>		
+				</div>
+
+				<div class="feature">
+					<h3>WE LOVE EARTH</h3>
+
+					<!-- <ion-icon name="earth"></ion-icon> -->
+
+					<img src="Images/earth.png">
+
+					<p>Making pizzas with the Earth in mind. We purchase quality ingredients from sustainable farms, and try to limit our CO2 emission the most we can.</p>		
+				</div>
+			</div>
+
+			<hr>
+		</section>
+
+
+		<section class="contact">
+			<h1 id="contact">CONTACT US</h1>
+
+			<div class="container">
+				<div class="card open">
+
+					<img src="Images/open.webp">
+
+
+					<h3>BUSINESS HOURS</h3>
+
+					<div class="hours">
+						<div class="table">
+							<div class="left">
+								<p>Weekdays</p>
+							</div>
+
+							<div class="right">
+								<p class="accent">10AM – 12PM</p>
+							</div>
+						</div>
+
+						<hr>
+
+						<div class="table">
+							<div class="left">
+								<p>Weekends</p>
+							</div>
+
+							<div class="right">
+								<p class="accent">12AM – 10PM</p>
+							</div>
+						</div>
+
+						<hr> 
+
+						<div class="table">
+							<div class="left">
+								<p>Holidays</p>
+							</div>
+
+							<div class="right">
+								<p class="accent">Closed</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="book">
+					<div class="card book">
+
+						<img src="Images/table.webp">
+
+						<h3>BOOK A TABLE</h3>
+
+						<input placeholder="Name">
+
+						<input placeholder="Email">
+
+						<input placeholder="Phone number">
+
+						<div class="container">
+							<input placeholder="Booking Date &" class="date">
+
+							<input placeholder="Time" class="time">
+						</div>
+
+						<button>RESERVE TABLE</button>
+					</div>
+				</div>
+			</div>
+			
+			<div class="contactInfo">
+				<p>Find us at <span class="accent">69 Pizza Lane, Pizza City, PS 12345</span>.</p>
+				
+				<p>Call us at <span class="accent">+123 456 7890</span>.</p>
+			</div>
+		</section>
+
+		<section class="footer">
+			<div class="column title">
+				<h1>Good Pizza, <span class="accent">Great Pizza</span></h1>
+
+				<p>Serving fresh, delicious pizza since 1931.</p>
+
+				<div class="socialMedia">
+					<ion-icon name="logo-twitter"></ion-icon>
+
+					<ion-icon name="logo-facebook"></ion-icon>
+
+					<ion-icon name="logo-youtube"></ion-icon>
+
+					<ion-icon name="logo-instagram"></ion-icon>
+				</div>
+			</div>
+
+			<div class="column home">
+				<h3>HOME</h3>
+
+				<a href="https://good-pizza-great-pizza.bookie0.repl.co/order.html">Menu</a>
+
+				<a href="https://good-pizza-great-pizza.bookie0.repl.co/#whyUs">Why us</a>
+				
+				<a href="https://good-pizza-great-pizza.bookie0.repl.co/#contact">Contact us</a>
+			</div>
+
+			<div class="column order">
+				<h3>ORDER</h3>
+
+				<a href="https://good-pizza-great-pizza.bookie0.repl.co/order.html#original">Originals</a>
+
+				<a href="https://good-pizza-great-pizza.bookie0.repl.co/order.html#big">Big</a>
+
+				<a href="https://good-pizza-great-pizza.bookie0.repl.co/order.html#somethingDifferent">Something different</a>
+
+				<a href="https://good-pizza-great-pizza.bookie0.repl.co/order.html#other">Other</a>
+					
+				<a href="https://good-pizza-great-pizza.bookie0.repl.co/create.html#create">Create pizza</a>
+			</div>
+
+			<div class="column businessHours">
+				<h3>BUSINESS HOURS</h3>
+
+				<p>Weekdays: 10AM – 12PM</p>
+
+				<p>Weekends: 12AM – 10PM</p>
+
+				<p>Holidays: Closed</p>
+			</div>
+
+			<div class="column info">
+				<h3>ADDRESS</h3>
+
+				<p>69 Pizza Lane</p>
+				<p>Pizza City, PS 12345</p>
+
+				<h3 class="phoneNumber">PHONE NUMBER</h3>
+
+				<p>+123 456 7890</p>
+			</div>
+		</section>
+
+    <script src="script.js"></script>
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
+
+
+<style>
+
+
+</style>
